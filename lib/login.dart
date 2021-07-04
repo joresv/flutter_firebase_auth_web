@@ -169,7 +169,10 @@ class _LoginPageState extends State<LoginPage> {
                           accentColor: Config.colors.facebookAccentColor,
                           icon: FontAwesomeIcons.facebookSquare,
                           title: "Login with Facebook".toUpperCase(),
-                          onPressend: () {},
+                          onPressend: () async {
+                            await AuthServices().signInFacebook();
+                            print("object");
+                          },
                         ),
                         SizedBox(
                           height: 20,
