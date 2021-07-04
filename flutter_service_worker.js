@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "manifest.json": "500fd0281dab7f509782995672894e43",
-"main.dart.js": "852e3ef752e3e8779fdc20a4adda180c",
+"main.dart.js": "89357312e22a5c6a06183e2f844a2be4",
 "version.json": "4953ed4c804bec5486ac37b0147a2aa5",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -16,15 +16,15 @@ const RESOURCES = {
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "1b0320d4f76ba2ecc348df3a9ea38df1",
+"assets/NOTICES": "7fac622f33662e15f2b5fb0243a918ba",
 "assets/AssetManifest.json": "af9885350d720ea2c0a681a04f4a94ea",
 "assets/assets/fonts/Roboto-Regular.ttf": "f36638c2135b71e5a623dca52b611173",
 "assets/assets/fonts/Roboto-Medium.ttf": "b2d307df606f23cb14e6483039e2b7fa",
 "assets/assets/images/bg.png": "fba78abab381981a660cdb711332b9dc",
 "assets/FontManifest.json": "ffe85a4a6fcfe630baf02604e42fc267",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"index.html": "fdb440dadb9c3b4a09a218bfd928ad30",
-"/": "fdb440dadb9c3b4a09a218bfd928ad30"
+"index.html": "7be0c06b8c6966b8b22bea4eac896027",
+"/": "7be0c06b8c6966b8b22bea4eac896027"
 };
 
 // The application shell files that are downloaded before a service worker can
