@@ -57159,12 +57159,12 @@ $S:1}
 D.a1x.prototype={
 $0:function(){var s=0,r=P.R(t.P),q
 var $async$$0=P.K(function(a,b){if(a===1)return P.O(b,r)
-while(true)switch(s){case 0:q=K.kU().il(0,"[DEFAULT]")
+while(true)switch(s){case 0:P.d4("facebook")
+q=K.kU().il(0,"[DEFAULT]")
 E.eQ(q,$.h0())
 s=2
 return P.X(new E.kz(A.r4(new K.e4(q)),K.rm(),$.mA()).mp(),$async$$0)
-case 2:P.d4("object")
-return P.P(null,r)}})
+case 2:return P.P(null,r)}})
 return P.Q($async$$0,r)},
 $S:64}
 D.a1y.prototype={
