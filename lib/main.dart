@@ -14,7 +14,7 @@ void main() async {
   await Firebase.initializeApp();
   if (kIsWeb) {
     // initialiaze the facebook javascript SDK
-    FacebookAuth.i.webInitialize(
+    FacebookAuth.instance.webInitialize(
       appId: "844113413198791", //<-- YOUR APP_ID
       cookie: true,
       xfbml: true,

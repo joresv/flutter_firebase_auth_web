@@ -52,9 +52,13 @@ class AuthServices {
   }
 
   Future<void> signInFacebook() async {
+    print("Nouvelle modif");
+    await logOut();
     final result = await _facebookAuth.login();
+    print(result.status);
     if (result.status == LoginStatus.success) {
       final accessToken = result.accessToken;
+      print(accessToken.token);
       final credential = FacebookAuthProvider.credential(accessToken.token);
       await _auth.signInWithCredential(credential);
     }
@@ -63,6 +67,7 @@ class AuthServices {
   Future<void> logOut() async {
     try {
       await _auth.signOut();
+      await _facebookAuth.logOut();
     } catch (e) {}
   }
 

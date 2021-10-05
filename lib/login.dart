@@ -170,8 +170,8 @@ class _LoginPageState extends State<LoginPage> {
                           icon: FontAwesomeIcons.facebookSquare,
                           title: "Login with Facebook".toUpperCase(),
                           onPressend: () async {
+                            print("facebook");
                             await AuthServices().signInFacebook();
-                            print("object");
                           },
                         ),
                         SizedBox(
